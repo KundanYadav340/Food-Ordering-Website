@@ -154,7 +154,7 @@ $num = mysqli_query($con,"SELECT * FROM products_detail" );
     	</div>
 		<form  class="input-group" action="../processes/customers_logout_process.php" method="post">
 		<button type="submit" id ="logout">
-			logout
+			<button>logout</button>
 		</button>
 	</form>
 	<div id="ghf" style="height:60px;"></div>
