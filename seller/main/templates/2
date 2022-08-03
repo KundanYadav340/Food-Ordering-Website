@@ -1,0 +1,42 @@
+2
+def func(b):
+    def test(a):
+        def add(b):
+            nonlocal a
+            a+=1
+            print("value of 'a' in inner function = ",a)
+            print("value of 'b' in inner function = ",b)
+            return a
+        return add(b)
+    return test(a)
+a=4 
+b=2
+print("sum of a and b =",func(b)+2)
+
+
+3
+mycode = 'print("hello world")'
+code = """
+def mutiply(x,y):
+    return x*y
+
+print("('Multiply of 2 and 3 is: ',",mutiply(2,3),end=')')
+"""
+exec(mycode)
+exec(code)
+
+1
+num=3
+def abc():
+    global num
+    x = 1
+    y = 2
+    num=5
+    str1= ""
+    print("Python Exercises")
+
+print("Total local variables of the function=",abc.__code__.co_nlocals)
+
+4
+ 
+ this is not going to be easy but iknow yiu can do itfri fronm mu y heart in the backsidde od the rinebver to the dfront fdoor od 

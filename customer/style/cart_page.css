@@ -1,0 +1,347 @@
+*{
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+			background-color: #fefefe;
+			font-size:;
+		}
+		.disclaimer{
+		    display:none;
+		
+		}
+		.navbar{
+	        position:fixed;
+		    bottom:0;
+			padding-left: 1%;
+			padding-right:1%;
+			width: 98%;
+			margin-bottom: 0px;
+			background-color:#fefefe;
+			z-index:4;
+			box-shadow: 1px 2px 7px #ff4500;
+		}
+		.navbar ul{
+			padding-top: 0px;
+			padding-bottom:5px;
+			background-color:#fefefe;
+		}
+		.navbar ul li{
+			color: #908888;
+			display: inline-block;
+			width: 22%;
+			text-align: center;
+			cursor: pointer;
+			border: 1px solid #fefefe;
+			padding-top: 2px;
+			padding-bottom: 1px;
+			font-size: 24px;
+			background-color: #fefefe;
+			font-weight:bold;
+		}
+		.navbar ul .active{
+            border-top:5px solid #ff4500;
+            color:#ff4500;
+            font-size:28px;
+		}
+		.navbar ul li:hover{
+			background-color: red;
+		}
+		a{
+			text-decoration: none;
+			background-color: transparent;
+			color: #fff;
+		}		
+		#headin{
+			color: white;
+			width: 94%;
+			display: inline-block;
+			padding: 3%;
+			background-color: #ff4500;
+			font-size:22px;
+		}
+		.product{
+			box-shadow: 1px 1px 2px #f9ede8;
+			border-radius: 3px;
+			margin: auto;
+			margin-top: 5px;
+			width: 96%;
+			border: 1px solid #f9ede8;
+			padding: 1%;
+		}
+		.pname{
+			color: #303030;
+			font-size:16px;
+			display:inline;
+			font-family:arial;
+			font-weight:700;
+		}
+		.photo{
+			float: left ;
+			width: 30%;
+			height: auto;
+		}
+		.product_image{
+			width: 85%;
+			height: auto;
+			box-shadow:2px 3px 5px #ababab;
+		}
+		.about{
+			padding: 1%;
+			font-weight: ;
+			color: #404040;
+			font-size: 8px;
+		}
+		.add{
+			text-align: right;
+			padding-right: 2%;
+			padding-bottom: 1%;
+		}
+		.addbutton{
+			color: red;
+			padding: 6px;
+			padding-right: 10px;
+			padding-left: 10px;
+			border:none;
+			border-color: red;
+			font-size:14px;
+			background:#ededed;
+			width:45%;
+			margin-left:1.5%;
+		}
+		.addbutton:hover{
+			padding: 6px;
+			color:white;
+			background-color: red;
+		}
+		#inform{
+ 		    margin-left:10%;
+ 		    margin-right: 10%;
+ 		    margin-bottom: 10px;
+ 		    border-radius: 7px;
+ 		    padding: 0;
+ 		    position: top;
+  			overflow: hidden;
+ 			background-color: #333;
+ 			position: fixed;
+ 			bottom: 0;
+ 			width: 80%;
+ 			display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            display: none;
+		}
+		.add{
+			text-align: left;
+		}
+		.about{
+			font-family: sans-serif;
+			color: #909090;
+			padding-top: 0px;
+			font-size:8px;
+		}
+		#priceChange{
+            font-size:14px;
+            line-height:1;
+            font-style:none;
+        }
+		.quantity_change{
+			width: 15%;
+			height: ;
+			border:none;
+			border-bottom: 2px solid blue;
+			background-color: #dadada;
+			color: black;
+			font-size: 14px;
+			padding-left: 5px;
+			border-color:blue;
+		}
+		#quantity_save{
+			padding: 6px;
+			font-size:14px;
+			color: green;
+			border-radius: ;
+			width: 50%;
+			float: right;
+			border:none;
+			background:#ededed;
+		}		
+		#orderPlacing{
+		    border-top:1px solid #ff3000;
+		    box-shadow:2px 4px #ff4500;
+ 		    margin-bottom: 42px;
+ 		    border-radius: 0px;
+ 		    padding: 0;
+ 		    position: ;
+  			overflow: hidden;
+ 			background-color: #fff;
+ 			position: fixed;
+ 			bottom: 0;
+ 			width: 100%;
+ 			display: block;
+            color: white;
+            padding: 8px 10px;
+            text-decoration: none;
+            display: flex;
+        }
+        .deleivery{
+            width:60%;
+            font-size:14px;
+            padding:5px;
+            color:#555555;
+        }
+        .deleivery strong{
+            color:#202020;
+        }
+        .specs{
+            width:35%;           
+        }
+        .totalAmount{
+        	width: 98%;
+        	padding: 5px;
+        	color: #ff4500;
+        	background-color: #fdfdfd;
+        	font-size:16px;
+        	font-weight:bold;       
+        }
+        .placingButton{
+        	width: 96%;
+        	background-color: green;
+        	color: white;
+        	padding: 7px;
+        	font-size:18px;
+        	border:1px solid gray;
+        	text-align:center;
+        	margin-right:5px;
+        }
+        .placingButton a{
+            font-size:18px;
+            border-radius:10px;
+        }
+        hr{
+            width:100%;
+            color:red;
+            opacity:.4;
+        }
+        .about h4{
+            font-size:18px;
+        }
+        .about input{
+            font-size:16px;
+            padding:4px;
+            font-weight:bold;
+        }
+        #hide{
+            height:100px;
+        }
+        .productam{
+        	color: #305030;
+        	background-color:#fefefe;
+        	padding: 8px;
+        	font-size:14px;
+        	font-weight:bold;
+        }
+        #empty{
+            margin-top:100px;
+            width:80%;
+            padding:4%;
+            text-align:center;
+            font-size:25px;
+            color:tomato;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        table{
+            border:1px solid red;
+            width:40%;
+        }
+        table td{
+            font-size:16px;
+            width:33%;
+        }
+        .changebox{
+            float:right;
+            display:flex;
+            border:1px solid gray;
+            font-size:22px;
+            font-weight:bold;
+            width:25%;
+            border-radius:10px;
+            padding:3px;
+            color:gray;
+            margin-right:10px;
+        }
+        .decrement{
+            font-weight:bold;
+            width:30%;
+            text-align:center;
+            padding:1%;
+        }
+        .increment {
+            font-weight:bold;
+            width:30%;
+             text-align:center;
+             padding:1%;
+        }
+        .showAmount{
+            font-weight:bold;
+            width:48%;
+             text-align:center;
+             padding:1%;
+             font-size:18px;
+             padding-top:5px;
+        }
+        hr{
+            opacity:0;
+        }
+        .delete{
+            float:right;
+            font-size:18px;
+            color:#aa9090;
+        }
+        #addressbox{
+            
+ 		    
+ 		    z-index:10;
+ 		    position:top;
+ 			background-color: #fafafa;
+ 			position: fixed;
+ 			bottom: 0px;
+ 			height:300px;
+ 			width: 90%;
+ 			display: none;
+            color: #404040;
+            padding: 20px 8%;
+            text-decoration: none;
+            border-top:1px solid gray;
+            transition:.5s;
+        }
+        .addressinput{
+            width:90%;
+            padding:10px;
+            border:2px solid gray;
+            border-radius:5px;
+            margin-bottom:5px;
+            
+        }
+        #addressbox button{
+            margin-top:10px;
+            text-align:center;
+            margin-left:27%;
+            margin-right:27%;
+            width:40%;
+            padding:3%;
+            border-radius:5px;
+            font-weight:bold;
+            background:#ff4500;
+            color:white;
+            border:none;
+        }
+        #cancel{
+            color:red;
+            float:right;
+        }
+        #useraddress{
+            word-wrap:normal;
+        }
